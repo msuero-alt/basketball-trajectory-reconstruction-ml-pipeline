@@ -46,7 +46,6 @@ smooths movement using exponential averaging
 
 3. Occlusion Handling
 
----
 When the ball disappears:
 
 short gaps are filled using velocity-based prediction
