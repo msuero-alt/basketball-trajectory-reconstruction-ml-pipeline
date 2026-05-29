@@ -162,8 +162,11 @@ Rather than assuming clean lab conditions, the pipeline is built to extract usab
 *Future Improvements*
 
 3D trajectory reconstruction (depth estimation)
+
 Multi-angle shot fusion
+
 Real-time overlay visualization on video
+
 Player-aware filtering (remove false positives from hands/body)
 
 ---
