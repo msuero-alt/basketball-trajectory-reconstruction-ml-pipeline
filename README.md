@@ -4,6 +4,7 @@ A computer vision system that tracks a basketball in real-time video and reconst
 
 The system combines YOLO object detection, temporal tracking, and parabolic trajectory fitting to estimate shot arcs from raw gameplay footage.
 
+Demo Video: https://youtube.com/watch?v=luLLZKf26uw
 ---
 *What This Project Does*
 
