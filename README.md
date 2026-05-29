@@ -39,8 +39,11 @@ Uses a pretrained YOLOv8 model to detect the basketball in each frame.
 A custom tracking system:
 
 locks onto the first strong detection
+
 filters unstable detections using distance constraints
+
 smooths movement using exponential averaging
+
 3. Occlusion Handling
 
 ---
