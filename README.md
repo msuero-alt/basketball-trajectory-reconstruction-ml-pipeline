@@ -73,29 +73,48 @@ Estimated gravity (relative): 1.56
 *Key Features*
 
 Real-time object detection with YOLOv8
+
 Lightweight custom tracking system (no heavy tracking libraries)
+
 Handles occlusion with motion prediction
+
 Physics-based trajectory fitting
+
 Clean modular pipeline (detector → physics → visualization)
+
 Works on real basketball footage (not synthetic data)
 
 ---
 *Project Structure*
 
 basketball-shot-tracker/
+
 │
+
 ├── main.py               # Entry point (demo launcher)
+
 ├── run_ball.py           # Runs full tracking pipeline
+
 ├── detector.py           # Core YOLO tracking logic
+
 ├── physics.py            # Curve fitting + gravity estimation
+
 ├── ttd_utils.py          # Utility functions (court mapping, plotting)
+
 │
+
 ├── run_court.py          # Court reference mapping tool
+
 ├── run_plot.py           # Court trajectory visualization
+
 │
+
 ├── data/
+
 │   ├── test.mp4          # Input basketball footage
+
 │   ├── ball_coords.npy   # Saved tracking data
+
 │   └── court_refs.json   # Court calibration points
 
 ---
