@@ -152,8 +152,11 @@ How physics-based modeling can still emerge from imperfect data
 This system is designed for real gameplay footage, where:
 
 occlusion occurs frequently
+
 motion blur affects detection stability
+
 camera angles are not perfectly aligned
+
 tracking must tolerate missing frames
 
 Rather than assuming clean lab conditions, the pipeline is built to extract usable signal from imperfect data.
