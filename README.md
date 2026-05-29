@@ -10,10 +10,15 @@ The system combines YOLO object detection, temporal tracking, and parabolic traj
 This project takes in a basketball video and:
 
 Detects the basketball frame-by-frame using a YOLOv8 model
+
 Tracks the ball’s position over time
+
 Handles missed detections using short-term motion prediction
+
 Reconstructs the shot trajectory
+
 Fits a physics-inspired curve to estimate motion behavior
+
 Outputs a full shot summary + visual trajectory plot
 
 ---
