@@ -50,10 +50,13 @@ smooths movement using exponential averaging
 When the ball disappears:
 
 short gaps are filled using velocity-based prediction
+
 tracking resets if confidence is lost for too long
+
 4. Trajectory Reconstruction
 
 Once coordinates are collected: a quadratic fit is applied to model motion
+
 estimated curve represents shot arc behavior
 
 ---
