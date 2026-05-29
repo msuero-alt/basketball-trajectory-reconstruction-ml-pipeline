@@ -121,29 +121,43 @@ basketball-shot-tracker/
 *How to Run*
 
 1. Install dependencies
+   
 pip install ultralytics opencv-python numpy matplotlib
+
 2. Run full demo
+   
 python run_ball.py
+
 3. (Optional) Map court reference points
+   
 python run_court.py
+
 4. (Optional) Visualize court trajectory
+   
 python run_plot.py
 
 ---
 *Requirements*
 
 Python 3.10+
+
 OpenCV
+
 NumPy
+
 Matplotlib
+
 Ultralytics YOLOv8
 
 ---
 *What I Learned*
 
 How object detection behaves in noisy real-world environments
+
 Why tracking systems fail (occlusion, duplicate detections, drift)
+
 How to stabilize motion using simple filtering instead of heavy frameworks
+
 How physics-based modeling can still emerge from imperfect data
 
 ---
