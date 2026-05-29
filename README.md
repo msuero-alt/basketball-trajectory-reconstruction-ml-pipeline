@@ -62,14 +62,23 @@ estimated curve represents shot arc behavior
 *Example Output*
 
 RUN BALL STARTED
+
 LOCKED ON BALL
+
 Frame 0: BALL (688, 181)
+
 Frame 1: BALL (701, 161)
+
 Frame 2: BALL (720, 134)
+
 ...
+
 Frame 7: PREDICTED (820, 20)
+
 Frame 8: PREDICTED (837, 4)
+
 ...
+
 FINAL COORD COUNT: 16
 
 Estimated gravity (relative): 1.56
